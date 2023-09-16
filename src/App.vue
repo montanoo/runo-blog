@@ -11,22 +11,47 @@
         </div>
       </div>
     </header>
+    <section
+      class="max-w-[1300px] mx-auto h-full flex flex-col gap-[15px] justify-end text-white pb-20"
+    >
+      <a href="" class="flex font-roboto font-bold">
+        <div href="" class="py-[5px] px-[10px] rounded-lg bg-[#ffffff26] text-[10px]">
+          ADVENTURE
+        </div>
+      </a>
+      <h1 class="text-[36px] font-bold max-w-[530px] font-lora">
+        Richird Norton photorealistic rendering as real photos
+      </h1>
+      <div class="flex text-[12px] gap-[10px] text-[#E5E5E5] mb-[66px]">
+        <div>08.08.2021</div>
+        <div class="w-[30px] h-[1px] bg-white mt-[8px]"></div>
+        <div class="w-[420px]">
+          Progressively incentivize cooperative systems through technically sound functionalities.
+          The credibly productivate seamless data.
+        </div>
+      </div>
+      <div class="flex gap-[15px]">
+        <div class="w-[8px] h-[8px] rounded-full bg-white"></div>
+        <div class="w-[8px] h-[8px] rounded-full bg-white/60"></div>
+        <div class="w-[8px] h-[8px] rounded-full bg-white/60"></div>
+      </div>
+    </section>
   </main>
 </template>
 
 <style setup>
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&display=swap');
 .main__Content {
   background-image: url('./assets/images/main__image.png');
-  min-height: 700px;
+  height: 650px;
   background-size: cover;
 }
 
 .header {
   background: #00000033;
   padding: 25px 0;
+  position: fixed;
+  width: 100%;
 }
 
 .header__Title {
