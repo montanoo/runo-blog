@@ -1,24 +1,47 @@
 <template>
   <main>
-    <header>
-      <div class="main1__haeder">RUNO</div>
-      <nav class="nav__header">
-        <a class="header__Link">Home</a>
-        <a class="header__Link">About</a>
-        <a class="header__Link">Article</a>
-        <a class="header__Link">Sign in</a>
-      </nav>
+    <header class="w-full fixed justify-end text-white bg-black/25">
+      <div class="max-w-[1300px] mx-auto flex justify-between items-center py-4">
+        <div class="main__header">RUNO</div>
+        <nav class="nav__header">
+          <a class="header__Link">Home</a>
+          <a class="header__Link">About</a>
+          <a class="header__Link">Article</a>
+          <a class="header__Link">Sign in</a>
+        </nav>
+      </div>
     </header>
+    <section class="max-w-[1300px] mx-auto h-full pt-80">
+      <span
+        class="py-[10px] px-[5px] text-white bg-gray font-Roboto bg-white bg-opacity-30 rounded-full"
+      >
+        Adventure
+      </span>
+      <div class="py-[25px] max-w-[600px] text-white text-4xl font-Lora font-bold">
+        Richird Norton photorealistic rendering as real photos
+      </div>
+      <section class="flex text-center gap-[20px] text-base">
+        <div class="py-[5px] text-white font-Lora">08.08.2021</div>
+        <div class="w-[60px] h-0 border-t border-white mt-4"></div>
+        <div class="py-[5px] max-w-[450px] text-left text-white font-Lora">
+          Progressively incentivize cooperative systems through technically sound functionalities.
+          The credibly productivate seamless data.
+        </div>
+      </section>
+      <section class="flex">
+        <div class="rounded-full bg-white w-4 h-4"></div>
+        <div class="rounded-full bg-white opacity-25 ms-5 w-4 h-4"></div>
+        <div class="rounded-full bg-white opacity-25 ms-5 w-4 h-4"></div>
+      </section>
+    </section>
   </main>
 </template>
 
 <style scoped>
-header {
+.header {
   display: flex;
   justify-content: space-between;
   background: #00000033;
-  padding: 20px;
-  padding-left: 40px;
   font-size: 20px;
   font-family: Spartan;
   font-size: 20px;
